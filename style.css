@@ -1,0 +1,83 @@
+body {
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+  color: #fff;
+  background: url('OpenPosisiWebsite/bitcoin body.webp') center/cover fixed no-repeat;
+}
+
+/* HERO SECTION */
+.hero {
+  background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.8)), url('OpenPosisiWebsite/bitcoin body.webp') center/cover fixed;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.overlay h1 {
+  font-size: 2.2em;
+  color: #FFD700;
+  background: rgba(0,0,0,0.7);
+  display: inline-block;
+  padding: 10px 10px;
+  border-radius: 10px;
+}
+
+.overlay p {
+  font-size: 1.2em;
+  margin-top: 10px;
+}
+
+.buttons {
+  margin-top: 10px;
+}
+
+.btn {
+  text-decoration: none;
+  color: #000;
+  background: #FFD700;
+  padding: 10px 10px;
+  margin: 3px;
+  border-radius: 10px;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.btn:hover {
+  background: #d4af37;
+}
+
+/* PARALLAX SECTION */
+.parallax {
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  padding: 120px 20px;
+  text-align: center;
+}
+
+.crypto {
+  background-image: url('OpenPosisiWebsite/open posisi crypto.jpg');
+}
+
+.forex {
+  background-image: url('OpenPosisiWebsite/open posisi layer forex.jpg');
+}
+
+.content {
+  background: rgba(0, 0, 0, 0.6);
+  display: inline-block;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.gold {
+  background: linear-gradient(90deg, #FFD700, #d4af37);
+  color: #000;
+}
+
+.pricing p {
+  margin: 5px 0;
+  font-size: 1.1em;
+}
